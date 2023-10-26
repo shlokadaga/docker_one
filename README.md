@@ -4,27 +4,10 @@
 
 ### How to create containers within docker?
 -----
-- 1. Write code in .yaml file
-
-  `version: '3'`
-`services:`
-  `mongodb:`
-    `image: mongo`
-    `ports:`
-      - "27017:27017"
-    environment:
-      - MONGO_INITDB_ROOT_USERNAME=admin 
-      - MONGO_INITDB_ROOT_PASSWORD=password
-    
-  mongo-express:
-    image: mongo-express
-    restart: always
-    ports:
-      - "8081:8081"
-    environment:
-      - ME_CONFIG_MONGODB_ADMINUSERNAME=admin
-      - ME_CONFIG_MONGODB_ADMINPASSWORD=password
-      - ME_CONFIG_MONGODB_SERVER=mongodb
+1. Command for `.yaml` file
+- `version`: The version of the software container.
+- `services`: The software who services you want to access from the docker.
+- `ports`: A software always runs at a particular hostid, so you want that to run on your localhost, that is why `yourlocalhost:software hostid`
 1. You can create on the command prompt
 
 
