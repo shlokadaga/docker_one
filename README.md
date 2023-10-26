@@ -4,15 +4,13 @@
 
 ### How to create containers within docker?
 -----
-- :1. Write code in .yaml file
-<br>
-  version: '3'
-<br>
-services:
-<br>
-  mongodb:
-    image: mongo
-    ports:
+- 1. Write code in .yaml file
+
+  `version: '3'`
+`services:`
+  `mongodb:`
+    `image: mongo`
+    `ports:`
       - "27017:27017"
     environment:
       - MONGO_INITDB_ROOT_USERNAME=admin 
