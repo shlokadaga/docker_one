@@ -3,6 +3,8 @@
 Docker is a platform that is designed to help developers build, share and run containers. So what docker does is that it handles the tedious setup part so that you can enjoy the coding part.
 
 ### How to create containers within docker?
+
+There are 2 ways you can create docker container, either writing the commands in the .yaml file or by using the command prompt. 
 -----
 1. Parameter for `.yaml` file
 - `version`: The version of the software container.
