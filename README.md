@@ -11,7 +11,7 @@
 - `environment`: In this variable, you pass the username and password.
 -----
 2. You can create on the command prompt
-`docker run -d -p *Docker Host: TCP Host* -e ME_CONFIG_MONGODB_ADMINUSERNAME=admin -e ME_CONFIG_MONGODB_ADMINPASSWORD=password -e ME_CONFIG_MONGODB_SERVER=mongodbb --net mongo-network --name mongo-express mongo-express`
+`docker run -d -p *Docker Host: TCP Host* -e ME_CONFIG_MONGODB_ADMINUSERNAME=******* -e ME_CONFIG_MONGODB_ADMINPASSWORD=***** -e ME_CONFIG_MONGODB_SERVER=***** --net mongo-network --name mongo-express mongo-express`
 - `-d`: to run the command in detach mode on the command prompt.
 - `-p`: to define the port for port-mapping.
 - `-e`: to declare the environment parameter for username and password.
