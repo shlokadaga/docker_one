@@ -4,7 +4,7 @@
 
 ### How to create contianers within docker?
 1. Write code in .yaml file
-  ' ttt '
+  'ttt'
 1. You can create on the command prompt
 
 
