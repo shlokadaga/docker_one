@@ -7,7 +7,7 @@ Some important terminologies within docker, that everyone needs to be aware befo
 - image: It is the starting point when using docker and also the file used to execute the code in docker.
 - volume: A storage location within docker that exists outside of the container.
 
-### How to create containers within docker? 
+### How to pull containers from docker? 
 
 There are 2 ways you can create docker container, either writing the commands in the .yaml file or by using the command prompt.  But first, you need to download Docker Desktop. For writing all the command in either of the way, you can refer the Docker Documentation.
 
@@ -26,4 +26,6 @@ There are 2 ways you can create docker container, either writing the commands in
 - `-e`: to declare the environment parameter for username and password.
 - `-net`: to declare the network for the container.
 - `-name`: to provide a name to the container, because docker provides a long unique id for the container which can be difficult to remember.
-- `mongo-express`: it is the container that you want to execute on your local system. You can add the software name that you want to use by refering from *docker docs.com*
+- `mongo-express`: it is the container that you want to execute on your local system. You can add the software name that you want to use by refering from *docker docs.com
+
+
