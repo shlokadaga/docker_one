@@ -11,6 +11,8 @@ Some important terminologies within docker, that everyone needs to be aware befo
 
 There are 2 ways you can create docker container, either writing the commands in the .yaml file or by using the command prompt.  But first, you need to download Docker Desktop. For writing all the command in either of the way, you can refer the Docker Documentation.
 
+*Note: These are not the only parameters, there are many that you can refer from the docker documentation*
+
 1. Parameter for `.yaml` file
 - `version`: The version of the software container.
 - `services`: The software who services you want to access from the docker.
