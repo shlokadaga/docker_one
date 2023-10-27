@@ -27,5 +27,9 @@ There are 2 ways you can create docker container, either writing the commands in
 - `-net`: to declare the network for the container.
 - `-name`: to provide a name to the container, because docker provides a long unique id for the container which can be difficult to remember.
 - `mongo-express`: it is the container that you want to execute on your local system. You can add the software name that you want to use by refering from *docker docs.com
+### How to push containers to docker?
+1. Create an Image  
+- to create an image: `docker build -t image_name`
+  
 
 
